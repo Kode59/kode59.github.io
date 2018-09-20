@@ -3,57 +3,106 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <title>Kode59</title>
 
   <style>
-
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      grid-gap: 10px;
+    .logo {
+      width: 200px;      
     }
-
-    .smaller-text {
-      font-size: smaller;
+    .card-img img {
+      width: 150px;
+    }
+    .top-section {
+      background: url(images/kode59_machine_learning_session.jpg) no-repeat center center fixed;        
+      background-size: cover;
+    }
+    .overlay {
+      background-color:black;
+      opacity:0.8;
+    }    
+    .top-content {
+      opacity: 1;
+      color: white;
     }
   </style>
 </head>
 
-<body>
-  <div class="header">
-    <img src="files/kode59-logo.png" alt="Kode59 logo">
-    <span>
-      <h1>Velkommen til Kode59</h1>
-      <p>
-        Kode59 er et initiativ for å samle utviklermiljøene på Haugalandet, uavhengig av teknologi og platform. Det skal være en platform der utviklere kan utveksle erfaringer, dele kompetanse og dyrke sin nysgjerrighet for teknologi.
-      </p>
-      <p>Du finner oss på følgende plasser:</p>
-    </span>
+  <body>
+    <div class="top-section">
+      <div class="position-relative overflow-hidden p-5  text-center overlay">      
+        <div class="p-lg-5 mx-auto col-sm-12 col-md-6 my-5 top-content">          
+          <img src="images/kode59-logo.svg" class="logo mb-4" alt="Kode59;"/>          
+          <p class="lead font-weight-normal">Kode59 er et initiativ for å samle utviklermiljøene på Haugalandet, uavhengig av teknologi og platform. Det skal være en platform der utviklere kan utveksle erfaringer, dele kompetanse og dyrke sin nysgjerrighet for teknologi.</p>
+          <a class="btn btn-outline-light" href="#links">Du finner oss på følgende kanaler</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="links">
+      <div class="row pt-5 mb-5" >
+        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
+            <div class="card-img pb-3">
+                <a href="https://www.facebook.com/kode59"> 
+                  <img src="./images/facebook.png" alt="Facebook logo">
+                </a>  
+            </div>
+            <a class="text-muted" href="https://www.facebook.com/kode59">
+              Facebook
+            </a>            
+        </div>
+        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
+            <div class="card-img pb-3">
+                <a href="https://join.slack.com/t/kode59/shared_invite/enQtNDIyNzY1NDI1MTU3LTMyZTQxYzQxOGVhNzJkNjk2MDk1MzJiNjFlZDIwNDZkYzAxNjY1ODI5OGNkNTI0NGNhZWYzYmZlMTdlODljNGQ">
+                  <img src="./images/slack-team.png" alt="Slack logo">
+                </a>  
+            </div>
+            <a class="text-muted" href="https://join.slack.com/t/kode59/shared_invite/enQtNDIyNzY1NDI1MTU3LTMyZTQxYzQxOGVhNzJkNjk2MDk1MzJiNjFlZDIwNDZkYzAxNjY1ODI5OGNkNTI0NGNhZWYzYmZlMTdlODljNGQ">
+              Slack
+            </a>            
+        </div>
+        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
+            <div class="card-img pb-3">
+                <a href="https://github.com/kode59">
+                  <img src="./images/github.svg" alt="github logo">
+                </a>  
+            </div>
+            <a class="text-muted" href="https://github.com/kode59">
+              Github
+            </a>            
+        </div>
+
+        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
+            <div class="card-img pb-3">
+                <a href="https://www.meetup.com/kode59">
+                  <img src="./images/meetup-logo.png" alt="github logo">
+                </a>  
+            </div>
+            <a class="text-muted" href="https://www.meetup.com/kode59">
+              Meetup
+            </a>            
+        </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col text-muted">
+        Copyright 2018 Kode59;
+      </div>
+    </div>
   </div>
 
-  <div class="container">
-    <div class="item">
-      <a href="https://www.facebook.com/kode59">
-        <img width="30%" src="./images/facebook.png" alt="Facebook logo">
-      </a>
-    </div>
-    <div class="item">
-      <a href="https://kode59.slack.com">
-        <img width="30%" src="./images/slack-team.png" alt="Slack logo">
-      </a>
-      <a class="smaller-text" href="https://join.slack.com/t/kode59/shared_invite/enQtNDIyNzY1NDI1MTU3LTMyZTQxYzQxOGVhNzJkNjk2MDk1MzJiNjFlZDIwNDZkYzAxNjY1ODI5OGNkNTI0NGNhZWYzYmZlMTdlODljNGQ">Invitasjon?</a>
-    </div>
-    <div class="item">
-        <a href="https://github.com/kode59">
-          <img width="30%" src="./images/github.svg" alt="Github logo">
-        </a>
-      </div>
-    <div class="item">
-      <a href="https://www.meetup.com/kode59">
-        <img width="30%" src="./images/meetup-logo.png" alt="Meetup logo">
-      </a>
-    </div>
-  </div>
-</body>
+  <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+  </body>
 
 </html>
