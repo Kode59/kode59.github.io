@@ -6,16 +6,11 @@
   <title>Kode59</title>
 
   <style>
-    .header {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      /* grid-template-rows: repeat(1, 3fr); */
-    }
 
     .container {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      /* grid-template-rows: repeat(1, 3fr); */
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 10px;
     }
 
     .smaller-text {
