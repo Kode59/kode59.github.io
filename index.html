@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
   <title>Kode59</title>
 
   <style>
@@ -19,9 +19,10 @@
       width: 150px;
     }
 
-    .top-section {
+    #top-section {
       background: url(images/kode59_machine_learning_session.jpg) no-repeat center center fixed;        
       background-size: cover;
+      transition: background-image 1s ease-in-out;
     }
     .overlay {
       background-color:black;
@@ -35,11 +36,11 @@
 </head>
 
   <body>
-    <div class="top-section">
+    <div id="top-section">
       <div class="position-relative overflow-hidden p-5  text-center overlay">      
         <div class="p-lg-5 mx-auto col-sm-12 col-md-6 my-5 top-content">          
           <img src="images/kode59-logo.svg" class="logo mb-4" alt="Kode59;"/>          
-          <p class="lead font-weight-normal">Kode59 er et initiativ for å samle utviklermiljøene på Haugalandet, uavhengig av teknologi og platform. Det skal være en platform der utviklere kan utveksle erfaringer, dele kompetanse og dyrke sin nysgjerrighet for teknologi.</p>
+          <p class="lead font-weight-normal">Kode59 er et initiativ for å samle utviklermiljøene på Haugalandet, uavhengig av teknologi og plattform. Det skal være en plattform der utviklere kan utveksle erfaringer, dele kompetanse og dyrke sin nysgjerrighet for teknologi.</p>
           <a class="btn btn-outline-light" href="#links">Du finner oss på følgende kanaler</a>
         </div>
       </div>
@@ -69,17 +70,6 @@
         </div>
         <div class="col-md-6 row-item col-lg-3 text-center mt-3">
             <div class="card-img pb-3">
-                <a href="https://github.com/kode59">
-                  <img src="./images/github.svg" alt="github logo">
-                </a>  
-            </div>
-            <a class="text-muted" href="https://github.com/kode59">
-              Github
-            </a>            
-        </div>
-
-        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
-            <div class="card-img pb-3">
                 <a href="https://www.meetup.com/kode59">
                   <img src="./images/meetup-logo.png" alt="github logo">
                 </a>  
@@ -88,7 +78,18 @@
               Meetup
             </a>            
         </div>
+        <div class="col-md-6 row-item col-lg-3 text-center mt-3">
+            <div class="card-img pb-3">
+                <a href="https://github.com/kode59">
+                  <img src="./images/github.svg" alt="github logo">
+                </a>  
+            </div>
+            <a class="text-muted" href="https://github.com/kode59">
+              Github
+            </a>            
+        </div>        
     </div>
+
 
     <div class="row mt-4 mb-4 pt-3 pb-3 border-top border-bottom">
       <div class="col text-center">
@@ -97,7 +98,7 @@
     </div>    
 
     <div class="row text-center mb-4 sponsors">
-      <div class="col-md-6 col-lg-4 text-center mt-3">
+      <div class="col-md-6 col-lg-4 text-center mt-lg-4">
           <a href="https://www.appex.no">
             <img src="./images/Appex.png" alt="Appex logo">
           </a> 
@@ -110,7 +111,7 @@
       </div>
 
       <div class="col-md-6 col-lg-4 text-center mt-3">
-          <a href="https://www.cgi.no">
+          <a href="https://www.cgi.com">
             <img src="./images/cgi.png" alt="CGI logo">
           </a> 
       </div>
@@ -126,19 +127,45 @@
           </a> 
       </div>      
     </div>
+
+    <div class="row mt-4 mb-4 border-top pt-4 pb-4">
+      <div class="col text-center">
+        Er du interessert i å holde et foredrag eller å sponse Kode59? Ta kontakt på en av kanalene over!
+      </div>
+    </div>
+  
   </div>
 
   <script>
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-    
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+  
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
     });
+    
+    function switchBackground() {
+      newImage = backgrounds[nextBackground];
+      document.getElementById('top-section').style.backgroundImage = newImage;
+      nextBackground++;
+      if (nextBackground >= backgrounds.length) {
+        nextBackground = 0;
+      }
+    }
+
+    var nextBackground = 1;
+    var backgrounds = [
+      'url(images/kode59_machine_learning_session.jpg)',
+      'url(images/kode59_home_automation.jpg)',
+      'url(images/kode59_pizza_time.jpg)',
+      'url(images/kode59_machine_learning_appex.jpg)',
+      'url(images/kode59_kubernetes.jpg)'
+    ];
+
+    setInterval(switchBackground, 5000);   
   </script>
   </body>
-
 </html>
