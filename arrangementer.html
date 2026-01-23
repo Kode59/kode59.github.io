@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Alle arrangementer - Kode59</title>
+
+  <style>
+    :root {
+      --primary-dark: #1a1a2e;
+      --accent-color: #e94560;
+      --card-bg: #16213e;
+      --text-light: #eaeaea;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, #0f0f23 100%);
+      min-height: 100vh;
+      color: var(--text-light);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .logo {
+      width: 150px;
+    }
+
+    .header-section {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 2rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    .page-title {
+      color: var(--text-light);
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+
+    .back-link {
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .back-link:hover {
+      color: #ff6b81;
+      text-decoration: none;
+    }
+
+    .event-card {
+      background: var(--card-bg);
+      border: none;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 40px rgba(233, 69, 96, 0.2);
+    }
+
+    .event-card .card-body {
+      padding: 1.5rem;
+    }
+
+    .event-card .card-title {
+      color: var(--text-light);
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .event-card .card-subtitle {
+      color: var(--accent-color) !important;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .event-card .card-text {
+      color: #b8b8b8;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .event-card .card-link {
+      color: var(--accent-color);
+      font-weight: 500;
+      margin-right: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .event-card .card-link:hover {
+      color: #ff6b81;
+    }
+
+    .date-badge {
+      background: var(--accent-color);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0 0 12px 0;
+      font-weight: 600;
+      font-size: 0.85rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .year-divider {
+      color: var(--accent-color);
+      font-weight: 300;
+      font-size: 2rem;
+      letter-spacing: 4px;
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(233, 69, 96, 0.3);
+    }
+
+    .upcoming-badge {
+      background: #27ae60;
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      margin-left: 1rem;
+      vertical-align: middle;
+    }
+
+    .past-event {
+      opacity: 0.7;
+    }
+
+    .past-event:hover {
+      opacity: 1;
+    }
+
+    .stats-section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--accent-color);
+    }
+
+    .stat-label {
+      color: #888;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 2rem 0;
+      margin-top: 3rem;
+      text-align: center;
+      color: #666;
+    }
+
+    footer a {
+      color: var(--accent-color);
+    }
+  </style>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#1a1a2e">
+</head>
+
+<body>
+  <div class="header-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <a href="index.html">
+            <img src="images/kode59-logo.svg" class="logo" alt="Kode59" />
+          </a>
+        </div>
+        <div class="col">
+          <h1 class="page-title mb-0">Alle arrangementer</h1>
+        </div>
+        <div class="col-auto">
+          <a href="index.html" class="back-link">← Tilbake til forsiden</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="stats-section">
+      <div class="row" id="stats-row">
+        <!-- Stats populated by JavaScript -->
+      </div>
+    </div>
+
+    <div id="events-container">
+      <!-- Events populated by JavaScript -->
+    </div>
+  </div>
+
+  <footer>
+    <p>Kode59 - Utviklermiljøet på Haugalandet</p>
+    <p><a href="index.html">Tilbake til forsiden</a></p>
+  </footer>
+
+  <script>
+    fetch('data/arrangementer.json')
+      .then(response => response.json())
+      .then(arrangementer => {
+        // Sort by date, newest first
+        const events = arrangementer.sort((a, b) => new Date(b.date) - new Date(a.date));
+        
+        const now = new Date();
+        const upcomingCount = events.filter(e => new Date(e.date) > now).length;
+        const pastCount = events.filter(e => new Date(e.date) <= now).length;
+        const years = [...new Set(events.map(e => new Date(e.date).getFullYear()))];
+        
+        // Render stats
+        const statsHtml = `
+          <div class="col-4 stat-item">
+            <div class="stat-number">${events.length}</div>
+            <div class="stat-label">Totalt arrangementer</div>
+          </div>
+          <div class="col-4 stat-item">
+            <div class="stat-number">${upcomingCount}</div>
+            <div class="stat-label">Kommende</div>
+          </div>
+          <div class="col-4 stat-item">
+            <div class="stat-number">${years.length}</div>
+            <div class="stat-label">År med aktivitet</div>
+          </div>
+        `;
+        document.getElementById('stats-row').innerHTML = statsHtml;
+        
+        // Group events by year
+        const eventsByYear = {};
+        events.forEach(event => {
+          const year = new Date(event.date).getFullYear();
+          if (!eventsByYear[year]) {
+            eventsByYear[year] = [];
+          }
+          eventsByYear[year].push(event);
+        });
+        
+        // Render events
+        let html = '';
+        Object.keys(eventsByYear).sort((a, b) => b - a).forEach(year => {
+          html += `<h2 class="year-divider">${year}</h2>`;
+          html += '<div class="row">';
+          
+          eventsByYear[year].forEach(event => {
+            const eventDate = new Date(event.date);
+            const isUpcoming = eventDate > now;
+            const pastClass = isUpcoming ? '' : 'past-event';
+            
+            const dateOptions = { day: 'numeric', month: 'long' };
+            const formattedDate = eventDate.toLocaleDateString('nb-NO', dateOptions);
+            
+            let timeStr = '';
+            if (event.date.includes('T')) {
+              timeStr = ' kl. ' + eventDate.toLocaleTimeString('nb-NO', { hour: '2-digit', minute: '2-digit' });
+            }
+            
+            html += `
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card event-card ${pastClass}" style="position: relative;">
+                  <div class="date-badge">${formattedDate}</div>
+                  <div class="card-body" style="padding-top: 3rem;">
+                    <h5 class="card-title">
+                      ${event.tittel || 'Ukjent tittel'}
+                      ${isUpcoming ? '<span class="upcoming-badge">Kommende</span>' : ''}
+                    </h5>
+                    <h6 class="card-subtitle mb-3">
+                      ${timeStr ? timeStr : ''}${event.location ? (timeStr ? ' • ' : '') + event.location : ''}
+                    </h6>
+                    ${event.description ? `<p class="card-text">${event.description.substring(0, 150)}${event.description.length > 150 ? '...' : ''}</p>` : ''}
+                    ${(event.link1 || event.link2) ? `
+                      <div class="mt-3">
+                        ${event.link1 ? `<a href="${event.link1}" class="card-link" target="_blank">Luma →</a>` : ''}
+                        ${event.link2 ? `<a href="${event.link2}" class="card-link" target="_blank">Facebook →</a>` : ''}
+                      </div>
+                    ` : ''}
+                  </div>
+                </div>
+              </div>
+            `;
+          });
+          
+          html += '</div>';
+        });
+        
+        document.getElementById('events-container').innerHTML = html;
+      })
+      .catch(error => {
+        console.error('Feil ved lasting av arrangementer:', error);
+        document.getElementById('events-container').innerHTML = `
+          <div class="alert alert-danger">
+            Kunne ikke laste arrangementer. Prøv igjen senere.
+          </div>
+        `;
+      });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-02-16T19:00:00",
+    "tittel": "Embeddings og semantic space",
+    "description": "En del av magien med kunstig intelligens ligger i hvordan den forstår verden og hvordan ting henger sammen. I dette foredraget ser vi på hvordan ulike fremskritt innen maskinlæring har skjedd – fra å gjenkjenne håndskrevne tall på 90-tallet, via den gang sjokkerende gjennombruddet for AI innen bildegjenkjenning, og frem til dagens språkmodeller. Gjennom denne reisen skal vi lære hvordan nevrale nettverk ser verden, hvordan de forstår forholdet mellom ulike deler av den, og hvordan de skaper forbløffende resultater på tvers av mange bruksområder. La oss ta en reise gjennom embeddings og semantic space!",
+    "location": "Haugesund Folkebibliotek",
+    "link1": "https://luma.com/a0c49p9f",
+    "link2": "https://www.facebook.com/events/1510059413421666"
+  },
+  {
+    "date": "2026-01-22T19:00:00",
+    "tittel": "Funksjonell programmering",
+    "description": "Introduksjon til funksjonell programmering ​Funksjonell programmering har gått fra akademisk nisje til mainstream – du finner det i React, moderne JavaScript og tradisjonelle objekt-orienterte språk som Java og C#. Men hva er egentlig funksjonell programmering, og hvorfor er så mange utviklere begeistret for det? ​Harald Ringvold gir en lettfattelig innføring i grunnprinsippene og hvordan dette gir oss kode som er lettere å teste, forstå og vedlikeholde.",
+    "location": "Haugesund Folkebibliotek",
+    "link1": "https://luma.com/wldth12a",
+    "link2": "https://www.facebook.com/events/905277491851375/"
+  },
+  {
+    "date": "2023-06-01",
+    "tittel": "OAuth og OIDC"
+  },
+  {
+    "date": "2023-02-15",
+    "tittel": "Teknologien bak ChatGPT og maskinlæring i praksis"
+  },
+  {
+    "date": "2022-10-26",
+    "tittel": "GraphQL i .NET med Hot Chocolate og Entity Framework"
+  },
+  {
+    "date": "2022-05-12",
+    "tittel": "Alle prater om Blazor! - Få en god innføring i den nye JavaScript utfordreren"
+  },
+  {
+    "date": "2019-10-31",
+    "tittel": "Utvikling i skyen med AWS"
+  },
+  {
+    "date": "2019-08-15",
+    "tittel": "50 shades of UX"
+  },
+  {
+    "date": "2019-04-25",
+    "tittel": "Skyjenester - En reise til skyen og en introduksjon."
+  },
+  {
+    "date": "2019-04-03",
+    "tittel": "IT-tryggleik – kor vanskeleg kan det vere?"
+  },
+  {
+    "date": "2019-03-28",
+    "tittel": "Lyntaler"
+  },
+  {
+    "date": "2018-11-01",
+    "tittel": "It's a kind of magic: Automatisk oppsett av testmiljøer"
+  },
+  {
+    "date": "2018-09-20",
+    "tittel": "Hvordan lese av din smart-strømmåler & Mitt første Smarthus"
+  },
+  {
+    "date": "2018-06-12",
+    "tittel": "Alternative frontend rammeverk"
+  },
+  {
+    "date": "2018-03-15",
+    "tittel": "Tech Talk: Microservices med Docker og Kubernetes"
+  },
+  {
+    "date": "2018-01-18",
+    "tittel": "Machine Learning med introduksjon til R og Azure ML"
+  },
+  {
+    "date": "2017-12-21",
+    "tittel": "Tech Talk: Paul Cunningham om Machine Learning"
+  },
+  {
+    "date": "2017-06-07",
+    "tittel": "React Native - Cross platform mobil APP'er med Javascript og React"
+  },
+  {
+    "date": "2017-03-09",
+    "tittel": "Programmering i Go"
+  },
+  {
+    "date": "2017-01-26",
+    "tittel": "DevOps eller dø!"
+  }
+]

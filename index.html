@@ -53,6 +53,54 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row  pt-5 mb-5">
+        <div class="col-12">
+          <h2>Kommende arrangementer</h2>
+          <div id="events-container">
+            <a href="arrangementer.html">Se alle arrangementer</a>
+          </div>
+          <script>
+            fetch('data/arrangementer.json')
+              .then(response => response.json())
+              .then(arrangementer => {
+                // let events = arrangementer.sort((a, b) => new Date(b.date) - new Date(a.date));
+                let events = arrangementer.filter(event => new Date(event.date) > new Date());
+                if (events.length > 0) {
+                  let html = '';
+                  events.forEach(event => {
+                    html += `<div class="card mb-4">
+                        <div class="card-body">
+                          <h5 class="card-title">${event.tittel || ''}</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">${new Date(event.date).toLocaleDateString('nb-NO') || ''} ${new Date(event.date).toLocaleTimeString('nb-NO', { hour: '2-digit', minute: '2-digit'}) || ''}, ${event.location || ''}</h6>`;
+                    if (event.description) {
+                      html += `<p class="card-text">${event.description}</p>`;
+                    }
+                    if (event.link1 || event.link2) {
+                      html += `<div>`;
+                      if (event.link1) {
+                        html += `<a href="${event.link1}" class="card-link" target="_blank">Luma</a>`;
+                      }
+                      if (event.link2 && event.link2 !== event.link1) {
+                        html += `<a href="${event.link2}" class="card-link" target="_blank">Facebook</a>`;
+                      }
+                      html += `</div>`;
+                    }
+                    html += `</div></div>`;
+                  });
+                  const container = document.createElement('div');
+                  container.innerHTML = html;
+                  document.querySelector('h2').after(container);
+                } else{
+                  document.querySelector('h2').after('Ingen planlagte arrangementer. Ta kontakt om du ønsker å holde et foredrag.');
+                }
+              });
+          </script>
+        </div>
+      </div>
+    </div>
+
+
 
     <div class="container" id="links">
       <div class="row pt-5 mb-5" >
