@@ -32,6 +32,19 @@
       opacity: 1;
       color: white;
     }
+    .rss-top {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .rss-top a {
+      opacity: 0.9;
+    }
+    .rss-top img {
+      width: 32px;
+      height: 32px;
+      filter: brightness(0) invert(1);
+    }
   </style>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -41,11 +54,17 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <link rel="alternate" type="application/rss+xml" title="Kode59 arrangementer" href="/feed.xml">
 </head>
 
   <body>
     <div id="top-section">
       <div class="position-relative overflow-hidden p-5  text-center overlay">
+        <div class="rss-top">
+          <a href="./feed.xml" title="RSS-feed for arrangementer">
+            <img src="./images/rss.svg" alt="RSS">
+          </a>
+        </div>
         <div class="p-lg-5 mx-auto col-sm-12 col-md-6 my-5 top-content">
           <img src="images/kode59-logo.svg" class="logo mb-4" alt="Kode59;"/>
           <p class="lead font-weight-normal">Kode59 er et initiativ for å samle utviklermiljøene på Haugalandet, uavhengig av teknologi og plattform. Det skal være en plattform der utviklere kan utveksle erfaringer, dele kompetanse og dyrke sin nysgjerrighet for teknologi.</p>

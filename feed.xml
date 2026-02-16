@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kode59 – Arrangementer</title>
+    <link>https://kode59.no</link>
+    <description>RSS-feed for arrangementer hos Kode59, Haugesund.</description>
+    <language>nb</language>
+    <lastBuildDate>Mon, 16 Feb 2026 20:56:34 +0000</lastBuildDate>
+    <atom:link href="https://kode59.no/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Embeddings og semantic space</title>
+      <link>https://luma.com/a0c49p9f</link>
+      <description>Sted: Haugesund Folkebibliotek. En del av magien med kunstig intelligens ligger i hvordan den forstår verden og hvordan ting henger sammen. I dette foredraget ser vi på hvordan ulike fremskritt innen maskinlæring har skjedd – fra å gjenkjenne håndskrevne tall på 90-tallet, via den gang sjokkerende gjennombruddet for AI innen bildegjenkjenning, og frem til dagens språkmodeller. Gjennom denne reisen skal vi lære hvordan nevrale nettverk ser verden, hvordan de forstår forholdet mellom ulike deler av den, og hvordan de skaper forbløffende resultater på tvers av mange bruksområder. La oss ta en reise gjennom embeddings og semantic space!</description>
+      <guid isPermaLink="false">https://kode59.no#2026-02-16T19:00:00-Embeddings-og-semantic-space</guid>
+    </item>
+    <item>
+      <title>Funksjonell programmering</title>
+      <link>https://luma.com/wldth12a</link>
+      <description>Sted: Haugesund Folkebibliotek. Introduksjon til funksjonell programmering ​Funksjonell programmering har gått fra akademisk nisje til mainstream – du finner det i React, moderne JavaScript og tradisjonelle objekt-orienterte språk som Java og C#. Men hva er egentlig funksjonell programmering, og hvorfor er så mange utviklere begeistret for det? ​Harald Ringvold gir en lettfattelig innføring i grunnprinsippene og hvordan dette gir oss kode som er lettere å teste, forstå og vedlikeholde.</description>
+      <guid isPermaLink="false">https://kode59.no#2026-01-22T19:00:00-Funksjonell-programmering</guid>
+    </item>
+    <item>
+      <title>OAuth og OIDC</title>
+      <link>https://kode59.no</link>
+      <description>OAuth og OIDC</description>
+      <guid isPermaLink="false">https://kode59.no#2023-06-01-OAuth-og-OIDC</guid>
+    </item>
+    <item>
+      <title>Teknologien bak ChatGPT og maskinlæring i praksis</title>
+      <link>https://kode59.no</link>
+      <description>Teknologien bak ChatGPT og maskinlæring i praksis</description>
+      <guid isPermaLink="false">https://kode59.no#2023-02-15-Teknologien-bak-ChatGPT-og-maskinlæring-i-praksis</guid>
+    </item>
+    <item>
+      <title>GraphQL i .NET med Hot Chocolate og Entity Framework</title>
+      <link>https://kode59.no</link>
+      <description>GraphQL i .NET med Hot Chocolate og Entity Framework</description>
+      <guid isPermaLink="false">https://kode59.no#2022-10-26-GraphQL-i-.NET-med-Hot-Chocolate-og-Entity-Framework</guid>
+    </item>
+    <item>
+      <title>Alle prater om Blazor! - Få en god innføring i den nye JavaScript utfordreren</title>
+      <link>https://kode59.no</link>
+      <description>Alle prater om Blazor! - Få en god innføring i den nye JavaScript utfordreren</description>
+      <guid isPermaLink="false">https://kode59.no#2022-05-12-Alle-prater-om-Blazor!---Få-en-god-innføring-i-den-nye-JavaScript-utfordreren</guid>
+    </item>
+    <item>
+      <title>Utvikling i skyen med AWS</title>
+      <link>https://kode59.no</link>
+      <description>Utvikling i skyen med AWS</description>
+      <guid isPermaLink="false">https://kode59.no#2019-10-31-Utvikling-i-skyen-med-AWS</guid>
+    </item>
+    <item>
+      <title>50 shades of UX</title>
+      <link>https://kode59.no</link>
+      <description>50 shades of UX</description>
+      <guid isPermaLink="false">https://kode59.no#2019-08-15-50-shades-of-UX</guid>
+    </item>
+    <item>
+      <title>Skyjenester - En reise til skyen og en introduksjon.</title>
+      <link>https://kode59.no</link>
+      <description>Skyjenester - En reise til skyen og en introduksjon.</description>
+      <guid isPermaLink="false">https://kode59.no#2019-04-25-Skyjenester---En-reise-til-skyen-og-en-introduksjon.</guid>
+    </item>
+    <item>
+      <title>IT-tryggleik – kor vanskeleg kan det vere?</title>
+      <link>https://kode59.no</link>
+      <description>IT-tryggleik – kor vanskeleg kan det vere?</description>
+      <guid isPermaLink="false">https://kode59.no#2019-04-03-IT-tryggleik-–-kor-vanskeleg-kan-det-vere?</guid>
+    </item>
+    <item>
+      <title>Lyntaler</title>
+      <link>https://kode59.no</link>
+      <description>Lyntaler</description>
+      <guid isPermaLink="false">https://kode59.no#2019-03-28-Lyntaler</guid>
+    </item>
+    <item>
+      <title>It&apos;s a kind of magic: Automatisk oppsett av testmiljøer</title>
+      <link>https://kode59.no</link>
+      <description>It&apos;s a kind of magic: Automatisk oppsett av testmiljøer</description>
+      <guid isPermaLink="false">https://kode59.no#2018-11-01-It&apos;s-a-kind-of-magic:-Automatisk-oppsett-av-testmiljøer</guid>
+    </item>
+    <item>
+      <title>Hvordan lese av din smart-strømmåler &amp; Mitt første Smarthus</title>
+      <link>https://kode59.no</link>
+      <description>Hvordan lese av din smart-strømmåler &amp; Mitt første Smarthus</description>
+      <guid isPermaLink="false">https://kode59.no#2018-09-20-Hvordan-lese-av-din-smart-strømmåler-&amp;-Mitt-første-Smarthus</guid>
+    </item>
+    <item>
+      <title>Alternative frontend rammeverk</title>
+      <link>https://kode59.no</link>
+      <description>Alternative frontend rammeverk</description>
+      <guid isPermaLink="false">https://kode59.no#2018-06-12-Alternative-frontend-rammeverk</guid>
+    </item>
+    <item>
+      <title>Tech Talk: Microservices med Docker og Kubernetes</title>
+      <link>https://kode59.no</link>
+      <description>Tech Talk: Microservices med Docker og Kubernetes</description>
+      <guid isPermaLink="false">https://kode59.no#2018-03-15-Tech-Talk:-Microservices-med-Docker-og-Kubernetes</guid>
+    </item>
+    <item>
+      <title>Machine Learning med introduksjon til R og Azure ML</title>
+      <link>https://kode59.no</link>
+      <description>Machine Learning med introduksjon til R og Azure ML</description>
+      <guid isPermaLink="false">https://kode59.no#2018-01-18-Machine-Learning-med-introduksjon-til-R-og-Azure-ML</guid>
+    </item>
+    <item>
+      <title>Tech Talk: Paul Cunningham om Machine Learning</title>
+      <link>https://kode59.no</link>
+      <description>Tech Talk: Paul Cunningham om Machine Learning</description>
+      <guid isPermaLink="false">https://kode59.no#2017-12-21-Tech-Talk:-Paul-Cunningham-om-Machine-Learning</guid>
+    </item>
+    <item>
+      <title>React Native - Cross platform mobil APP&apos;er med Javascript og React</title>
+      <link>https://kode59.no</link>
+      <description>React Native - Cross platform mobil APP&apos;er med Javascript og React</description>
+      <guid isPermaLink="false">https://kode59.no#2017-06-07-React-Native---Cross-platform-mobil-APP&apos;er-med-Javascript-og-React</guid>
+    </item>
+    <item>
+      <title>Programmering i Go</title>
+      <link>https://kode59.no</link>
+      <description>Programmering i Go</description>
+      <guid isPermaLink="false">https://kode59.no#2017-03-09-Programmering-i-Go</guid>
+    </item>
+    <item>
+      <title>DevOps eller dø!</title>
+      <link>https://kode59.no</link>
+      <description>DevOps eller dø!</description>
+      <guid isPermaLink="false">https://kode59.no#2017-01-26-DevOps-eller-dø!</guid>
+    </item>
+  </channel>
+</rss>
