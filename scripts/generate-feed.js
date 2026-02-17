@@ -30,12 +30,11 @@ function toRfc822Date(dateStr) {
 const raw = fs.readFileSync(DATA_PATH, 'utf8');
 const arrangementer = JSON.parse(raw);
 
-const items = arrangementer.map((a) => {
+const items = arrangementer.filter(x => !!x.link1).slice(0, 10).map((a) => {
   const title = escapeXml(a.tittel || 'Arrangement');
   const link = a.link1 || BASE_URL;
   const desc = escapeXml(a.description || a.tittel || '');
   const location = a.location ? escapeXml(`Sted: ${a.location}. `) : '';
-  const pubDate = toRfc822Date(a.date);
   const guid = `${BASE_URL}#${a.date}-${(a.tittel || '').replace(/\s+/g, '-')}`;
 
   return `    <item>
