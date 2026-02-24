@@ -5,8 +5,14 @@
     <link>https://kode59.no</link>
     <description>RSS-feed for arrangementer hos Kode59, Haugesund.</description>
     <language>nb</language>
-    <lastBuildDate>Tue, 17 Feb 2026 08:29:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 12:39:58 +0000</lastBuildDate>
     <atom:link href="https://kode59.no/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Reisen fra måler til datavarehus, hva skjer egentlig med dataene fra smartmåleren din?</title>
+      <link>https://luma.com/or8xfkna</link>
+      <description>Sted: Haugesund Folkebibliotek. Bak hver av de 2 millioner smartmålerne i norske hjem som CGI mottar data fra ligger det en kompleks infrastruktur. Hver dag strømmer det inn data om forbruk, spenningskvalitet, og hendelser som skal prosesseres, kvalitetssikres og omgjøres til fakturaer for milliarder av kroner. Men hvordan ser denne reisen ut rent teknisk? I dette foredraget åpner vi panseret på vårt datavarehus. Vi viser hvordan vi gikk frem for å bygge en løsning som håndterer alt fra avansert analyse til kunderapportering og AI. Vi deler våre erfaringer med å bygge en serverless plattform som skal være robust nok for milliardomsetning, men fleksibel nok til å gi kundene våre innsikt i egene data.</description>
+      <guid isPermaLink="false">https://kode59.no#2026-03-23T19:30:00-Reisen-fra-måler-til-datavarehus,-hva-skjer-egentlig-med-dataene-fra-smartmåleren-din?</guid>
+    </item>
     <item>
       <title>Embeddings og semantic space</title>
       <link>https://luma.com/a0c49p9f</link>

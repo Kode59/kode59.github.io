@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-03-23T19:30:00",
+    "tittel": "Reisen fra måler til datavarehus, hva skjer egentlig med dataene fra smartmåleren din?",
+    "description": "Bak hver av de 2 millioner smartmålerne i norske hjem som CGI mottar data fra ligger det en kompleks infrastruktur. Hver dag strømmer det inn data om forbruk, spenningskvalitet, og hendelser som skal prosesseres, kvalitetssikres og omgjøres til fakturaer for milliarder av kroner. Men hvordan ser denne reisen ut rent teknisk? I dette foredraget åpner vi panseret på vårt datavarehus. Vi viser hvordan vi gikk frem for å bygge en løsning som håndterer alt fra avansert analyse til kunderapportering og AI. Vi deler våre erfaringer med å bygge en serverless plattform som skal være robust nok for milliardomsetning, men fleksibel nok til å gi kundene våre innsikt i egene data.",
+    "location": "Haugesund Folkebibliotek",
+    "link1": "https://luma.com/or8xfkna",
+    "link2": "https://fb.me/e/4gECLqrTp"
+  },
+  {
     "date": "2026-02-16T19:00:00",
     "tittel": "Embeddings og semantic space",
     "description": "En del av magien med kunstig intelligens ligger i hvordan den forstår verden og hvordan ting henger sammen. I dette foredraget ser vi på hvordan ulike fremskritt innen maskinlæring har skjedd – fra å gjenkjenne håndskrevne tall på 90-tallet, via den gang sjokkerende gjennombruddet for AI innen bildegjenkjenning, og frem til dagens språkmodeller. Gjennom denne reisen skal vi lære hvordan nevrale nettverk ser verden, hvordan de forstår forholdet mellom ulike deler av den, og hvordan de skaper forbløffende resultater på tvers av mange bruksområder. La oss ta en reise gjennom embeddings og semantic space!",
