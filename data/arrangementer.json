@@ -1,4 +1,12 @@
 [
+    {
+    "date": "2026-05-21T19:00:00",
+    "tittel": "Agentisk koding, hva nå?!",
+    "description": "I desember i fjor skjedde det noe. Språkmodellene passerte en terskel for å kunne gjøre mer arbeid over lengre tid, godt nok for å kunne brukes i reelt arbeid. \n For noen er det fortsatt fjernt å la en AI-agent røre produksjonskode, andre har ikke skrevet en linje siden 2025.\n\nNoen synes å være _helt_ sikre på at dette vil forandre alt i vår bransje. Andre ser det bare som nok en teknologi — og ser store utfordringer i struktur, arkitektur, vedlikehold og læring. Kanskje har begge rett. Det er i alle fall ingen som har en fasit.\n\nPetter Hareim jobber som konsulent i Miles, og sitter i fagnemda for IT Utviklerfaget i Rogaland. Han bruker tiden sin med å få disse nye greiene til å fungere, både for bedrifter og flinke fagfolk. Han deler noen betraktninger, og snakker litt om rammene han bruker når han snakker med utviklere og utviklingsteam om disse temaene. Det blir spørsmål og diskusjon med salen, og noen tips og ressurser å ta tak i for de som ønsker.\n\nMiles spanderer pizza. Vi håper at nettopp du kommer innom til en Kode59 med noen ekstra gode samtaler.",
+    "location": "Haugesund Folkebibliotek",
+    "link1": "https://luma.com/8s22dl1h",
+    "link2": "https://fb.me/e/3FBliVuoz"
+  },
   {
     "date": "2026-03-23T19:30:00",
     "tittel": "Reisen fra måler til datavarehus, hva skjer egentlig med dataene fra smartmåleren din?",

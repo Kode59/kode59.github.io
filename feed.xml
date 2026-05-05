@@ -5,8 +5,21 @@
     <link>https://kode59.no</link>
     <description>RSS-feed for arrangementer hos Kode59, Haugesund.</description>
     <language>nb</language>
-    <lastBuildDate>Tue, 24 Feb 2026 12:39:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 09:08:36 +0000</lastBuildDate>
     <atom:link href="https://kode59.no/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Agentisk koding, hva nå?!</title>
+      <link>https://luma.com/8s22dl1h</link>
+      <description>Sted: Haugesund Folkebibliotek. I desember i fjor skjedde det noe. Språkmodellene passerte en terskel for å kunne gjøre mer arbeid over lengre tid, godt nok for å kunne brukes i reelt arbeid. 
+ For noen er det fortsatt fjernt å la en AI-agent røre produksjonskode, andre har ikke skrevet en linje siden 2025.
+
+Noen synes å være _helt_ sikre på at dette vil forandre alt i vår bransje. Andre ser det bare som nok en teknologi — og ser store utfordringer i struktur, arkitektur, vedlikehold og læring. Kanskje har begge rett. Det er i alle fall ingen som har en fasit.
+
+Petter Hareim jobber som konsulent i Miles, og sitter i fagnemda for IT Utviklerfaget i Rogaland. Han bruker tiden sin med å få disse nye greiene til å fungere, både for bedrifter og flinke fagfolk. Han deler noen betraktninger, og snakker litt om rammene han bruker når han snakker med utviklere og utviklingsteam om disse temaene. Det blir spørsmål og diskusjon med salen, og noen tips og ressurser å ta tak i for de som ønsker.
+
+Miles spanderer pizza. Vi håper at nettopp du kommer innom til en Kode59 med noen ekstra gode samtaler.</description>
+      <guid isPermaLink="false">https://kode59.no#2026-05-21T19:00:00-Agentisk-koding,-hva-nå?!</guid>
+    </item>
     <item>
       <title>Reisen fra måler til datavarehus, hva skjer egentlig med dataene fra smartmåleren din?</title>
       <link>https://luma.com/or8xfkna</link>
